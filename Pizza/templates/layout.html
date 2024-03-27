@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+
+<head>
+    <title> My site! </title>
+    <link rel="stylesheet" href="/static/style/style.css"/>
+</head>
+
+<body>
+    <header>{% include 'header.html' %}</header>
+    <nav>{% include 'navbar.html' %}</nav>
+    <main>{% block content %}{% endblock %}</main>
+    <footer>{% include 'footer.html' %}</footer>
+</body>
+</html>

@@ -1,0 +1,67 @@
+body{
+	font-family:
+		"Comic Sans MS";
+	color: orange;
+	background-color: green;
+}
+
+img{
+	width: 500px;
+	height: 600px;
+}
+
+p{
+	color: yellow;
+}
+
+h1{
+	font-size: 100px;
+}
+
+nav{
+	background-color: #000000;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 0px;
+    padding: 5px;
+}
+
+nav li {
+    display: inline;
+    margin-top: 100%;
+    margin-bottom: 100%;
+    padding: 5px;
+}
+
+.highlight_yellow{
+	background-color: yellow;
+}
+
+.rainbow-text {
+	background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+.rainbow-text-loop {
+	display: inline-block;
+	text-shadow: 2px 2px 4px #000000;
+	-webkit-animation: rainbow 5s infinite; 
+  }
+  
+@-webkit-keyframes rainbow{
+	0%{color: orange;}  
+	10%{color: purple;} 
+	20%{color: red;}
+	30%{color: CadetBlue;}
+	40%{color: yellow;}
+	50%{color: coral;}
+	60%{color: green;}
+	70%{color: cyan;}
+	80%{color: DeepPink;}
+	90%{color: DodgerBlue;}
+	100%{color: orange;}
+  }
