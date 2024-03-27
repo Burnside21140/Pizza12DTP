@@ -34,6 +34,7 @@ def pizzas():
         print("i:", i)
         item = [i[0], i[1]]
         pizzalist.append(item)
+    print(pizzalist)
     return render_template('pizzas.html', pizzas=pizzalist)
 
 

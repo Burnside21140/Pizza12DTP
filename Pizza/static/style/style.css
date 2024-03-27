@@ -51,6 +51,18 @@ nav li {
 	text-shadow: 2px 2px 4px #000000;
 	-webkit-animation: rainbow 5s infinite; 
   }
+
+.grid-pizzas-container {
+	display: grid;
+	grid: auto / auto auto auto;
+}
+
+.pizza-container {
+	background-color: wheat;
+	border-width: 5px;
+	margin: 20px;
+	list-style-type: none;
+}
   
 @-webkit-keyframes rainbow{
 	0%{color: orange;}  
