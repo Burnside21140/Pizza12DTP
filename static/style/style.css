@@ -61,6 +61,7 @@ nav li {
 	background-color: wheat;
 	border-width: 5px;
 	margin: 20px;
+	height: 125px;
 	list-style-type: none;
 }
   

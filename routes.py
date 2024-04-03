@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route("/")  # ROUTE DECORATOR
 def home():     # ROUTE FUNCTION
-    return render_template("home.html")
+    return render_template("index.html")
 
 
 @app.route("/pizza/<string:pizza_id>")
@@ -32,7 +32,7 @@ def pizzas():
     pizzalist = []
     for i in pizzas:
         print("i:", i)
-        item = [i[0], i[1]]
+        item = [i[0], i[1], i[2]]
         pizzalist.append(item)
     print(pizzalist)
     return render_template('pizzas.html', pizzas=pizzalist)
